@@ -47,3 +47,11 @@ ARG=`ruby -e "puts (0..100).to_a.shuffle.join(' ')"`; ./push_swap $ARG;
 
 If you want run checker:
 ARG=`ruby -e "puts (0..100).to_a.shuffle.join(' ')"`; ./push_swap $ARG | ./checker $ARG
+```
+###  Bonuses
+
+I added two bonuses to this project:
+
+**-v** flag for checker, which allows you to visualize the program's operation and show how to work with arrays step by step.
+
+**-e** flag for both programs, which allows you to handle all input errors and fix them without causing the program to exit.
